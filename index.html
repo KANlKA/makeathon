@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a6b8a9384.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="images/logo3.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Kanika</span>  Chauda <br>From Bangalore</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- About column 1: Image -->
+                <div class="about-col-1">
+                    <img src="images/kanikamain.jpg" alt="">
+                </div>
+
+                <!-- About column 2: Text and tabs -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p>
+                        <h3>Greetings! I'm Kanika Chauda, a first-year student pursuing a BTech degree in Computer Science at RV University in Bangalore. Currently navigating the exciting world of computer science, my academic journey at RV University has been a captivating exploration of the vast realms of technology. I am passionate about delving into the intricacies of programming, algorithms, and the ever-evolving landscape of web development.Driven by a curiosity to unravel the magic behind the digital world, I am enthusiastic about honing my skills in web development. Beyond the coding challenges and academic pursuits, I actively engage in campus life, seeking inspiration from every opportunity to learn and grow. My journey is not only about textbooks and code but also about embracing the collaborative spirit of the tech community. I am always open to connecting with fellow students, industry professionals, and anyone who shares a passion for technology. Whether it's discussing the latest tech trends, collaborating on projects, or just sharing experiences, I believe in the power of community.
+
+                            Thank you for visiting my portfolio. Let's shape the future of technology together!
+                        </h3>
+                    </p><br><br>
+                    <!-- Horizontal line above "Skills" -->
+                    <div class="horizontal-line"></div>
+
+                    <!-- Tab titles and contents -->
+                    <div class="tab-container">
+                        <!-- "Skills" tab -->
+                        <div class="tab">
+                            <h3><p class="tab-links active-link" onclick="opentab('Skills')">Skills</p></h3>
+                            <div class="tab-contents active-tab" id="Skills">
+                                <!-- Skills content -->
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing responsive web pages</li>
+                                    <li><span>Web Development</span><br>Web development using HTML, CSS, and JS</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- "Experience" tab -->
+                        <div class="tab">
+                        <h3><p class="tab-links" onclick="opentab('Experience')">Experience</p></h3>
+                            <div class="tab-contents" id="Experience">
+                                <!-- Experience content -->
+                                <ul>
+                                    <li><span>2023 - 2024</span><br>Working on making responsive websites</li>
+                                    <li><span>2024 - Current</span><br>Ongoing Project on Frontend development</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- "Education" tab -->
+                        <div class="tab">
+                        <h3><p class="tab-links" onclick="opentab('Education')">Education</p></h3>
+                            <div class="tab-contents" id="Education">
+                                <!-- Education content -->
+                                <ul>
+                                    <li><span>2022 - 2023</span><br>12th at Gyan Ganga, Raipur</li>
+                                    <li><span>2023 - 2027</span><br>Pursuing BTech at RV University</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1><br><br>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt ex ea error doloremque! Molestiae consequatur qui quo ea, modi tempora fuga corporis quis? Dolorem qui vel fugiat autem pariatur!
+                </p><a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt ex ea error doloremque! Molestiae consequatur qui quo ea, modi tempora fuga corporis quis? Dolorem qui vel fugiat autem pariatur!
+                </p><a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1><br><br>
+        <div class="work-list">
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app lets you connect to people all around the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This app lets you listen to music and download it for free</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping app</h3>
+                        <p>This app lets you shop all your favourite clothes from anywhere in the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 clas="sub-title">Contact Me</h1>
+                
+                
+                
+        
+                <div class="social-icons">
+                    <a href="https://instagram.com/kanikahehe"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/kanikastwt"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://github.com/KANlKA"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="mailto:kanikachauda@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kanika-chauda-a73390276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p> &#169; 2024 KANIKA CHAUDA. ALL RIGHTS RESERVED. </p>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
